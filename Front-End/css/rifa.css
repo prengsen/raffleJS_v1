@@ -1,0 +1,52 @@
+#names {
+    text-align: center;
+    width: 100%;
+}
+.main{
+    /*background-color: #022D5F;*/
+    background-image: url(http://www.galileo.edu/page/wp-content/uploads/2020/07/4-encabezado-avanzes-data-science.jpg),
+        linear-gradient(180deg,#01416F 90%, #001a51 100%, white 90%)!important;
+    
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.name {
+    padding: 3px 8px;
+    font-size: 14px;
+    display: inline-block;
+    margin: 10px;
+    position: relative;
+    font-weight: bold;
+    background-color: #F18E00;
+    opacity: 70%;
+    color: white;
+}
+
+#go{
+    font-size: 40px;
+}
+
+#principal{
+    background-image: url('/patroc.png');  
+    height: 100%;
+    width: 100%; 
+}
+
+#cosa{
+    width: 200px;
+    height: 200px;
+}
+
+.color1{
+    color: white;
+}
+
+
+
+

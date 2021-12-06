@@ -1,0 +1,72 @@
+
+body{
+    background: linear-gradient(to bottom, #1D9ADD, #1A48BA 75%);
+    background: -webkit-linear-gradient(#1D9ADD, #1A48BA 75%);
+    background: -moz-linear-gradient(#1D9ADD, #1A48BA 75%);
+    background: -o-linear-gradient(#1D9ADD, #1A48BA 75%);
+    background-attachment:fixed;
+}
+
+#login-container{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15%;
+    width: 50%;
+    height: 40rem;
+    background-color: white;
+    border-radius: 20px;
+}
+
+#logo{
+    background-color: white;
+    align-items: center;
+    height: 25%;
+    border-radius: 20px;
+}
+
+#img-logo{
+    max-width: 40%;  
+    display:block;
+    margin:auto;
+    padding: 10px 10px;
+}
+
+.log-form{
+    background-color: white;
+    padding: 50px;
+    height: 30rem;
+}
+
+#form-login{
+    padding: 20px;
+    
+}
+
+#form-login button{
+    background-color: #1A48BA;
+    margin: 2rem 0rem !important;
+}
+
+input:focus {
+    border-bottom: 1px solid #1A48BA !important;
+    box-shadow: 0 1px 0 0 #1A48BA !important;
+}
+
+select:focus {
+    border-bottom: 1px solid #1A48BA !important;
+    box-shadow: 0 1px 0 0 #1A48BA !important;
+}
+
+label{
+    font-size: 1.5rem !important;
+}
+
+label.active {
+    color: #1A48BA !important;
+    font-size: 28px !important;
+}
+
+.login-button{
+    float: right;
+    font-size: 20px;
+}
